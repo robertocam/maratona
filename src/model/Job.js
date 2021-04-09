@@ -54,8 +54,6 @@ module.exports = {
             ${newJob.created_at}
         )`)
         
-        await db.close()
-
-        
+        await db.close() 
     }
 }
